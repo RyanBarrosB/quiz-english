@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+body { 
+  font-family: "Arial", sans-serif;
+  background: url("img/img fundo.png")
+  no-repeat center center fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 150px;
+  position: fixed;
+  top: 35px;
+  left: 20px;
+}
+
+.titulo h2 {
+  margin-top: 100px;
+  color: #000000;
+}
+
+.conteudo-jogo {
+  max-width: 600px;
+  margin: 20px auto;
+  background: #5578be5f;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 9px 15px;
+}
+
+.progresso {
+  display: block;
+  margin: 14px;
+  color: #000000;
+  font-size: 14px;
+}
+
+.pergunta {
+  display: block;
+  font-size: 23px;
+  margin-bottom: 20px;
+  color: #000000fd;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+}
+
+.resposta-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #f6f6f6;
+  color: black;
+  cursor: pointer;
+  width: 80%;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.btn-responder:hover {
+  background-color: #456ca2;
+}
+
+.rodape {  
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #040101;
+  background-color: #5578be;
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0 -2px 15px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+@media (max-width: 766px) {
+  body {
+    background-size: 140% 84.5%;
+    background-repeat: no-repeat;
+  }
+}
